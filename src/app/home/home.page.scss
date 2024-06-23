@@ -1,27 +1,34 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.welcome {
+  line-height: 2rem;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.welcome-text {
+  font-weight: 100;
+  font-size: medium;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.what-song {
+  font-weight: 600;
+  font-size: large;
 }
 
-#container a {
-  text-decoration: none;
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  width: 40px;
+  height: 40px;
+}
+
+ion-searchbar {
+  --background: #322f40;
+  --color: #5d5b68;
+  --placeholder-color: #5d5b68;
+  --icon-color: #fff;
+  --border-color: #160131;
+  --border-size: 1px;
+  --border-radius: 10px;
+  height: 40px;
 }

@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  url: string = '';
+  audios: any[] = [
+    {
+      title: 'Immortals',
+      author: 'Imagine Dragons',
+    },
+  ];
 
   constructor() {}
-
 }
