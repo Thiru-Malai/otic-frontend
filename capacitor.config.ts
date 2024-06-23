@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'otic',
+  appId: 'com.thirumalai.otic',
+  appName: 'Otic',
   webDir: 'www',
 };
 
